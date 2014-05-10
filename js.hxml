@@ -1,0 +1,10 @@
+--times
+
+-cp src
+-js bin/js/deagent.js
+
+-lib polygonal-ds
+--macro include('com.dropecho.ai.fsm')
+--macro include('com.dropecho.ai.goap')
+--macro include('com.dropecho.ai.pathfinding')
+
